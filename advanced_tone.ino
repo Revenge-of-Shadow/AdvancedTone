@@ -32,7 +32,7 @@ void loop() {
   int freq = getInt();
 
   Serial.print("Setting frequency to ");
-  Serial.print(angle);
+  Serial.print(freq);
   Serial.println(" Herz.");
   
   tone(pin, freq, DURATION);
